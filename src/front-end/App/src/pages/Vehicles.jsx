@@ -22,7 +22,7 @@ export default function Vehicles() {
             <Navbar username="Username" />
 
             <h1>Phương tiện của bạn</h1>
-            <Link to="/tao-hop-dong">Tạo hợp đồng</Link>
+            <Link to="/newContract">Tạo hợp đồng</Link>
 
             {vehicles.map((vehicle) => (
                 <div key={vehicle.id}>
